@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+.header1{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(2, 2, 2);
+}
+.header1 a {
+    display: inline-block ;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 17px  35px;
+}
+
+.cont{
+    margin-top: 70px;
+}
+
+.back{
+    margin-top: 65px;
+    background-image: url(../Images/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #e2e2e267;
+}
+
+h3{
+    font-size: 55px;
+    padding-top: 200px;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgb(46, 47, 48);
+    color: white;
+    word-spacing: 20px;
+}
+
+body{
+    font-family: monospace
+}  
+
+form{
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+input[type=text]{
+    width: 50%;
+    height: 30px;
+    border-radius: 16px;
+    border: 2px solid #d6d6d6;
+    /* box-shadow: 5px 5px 5px 2px white; */
+    margin-right: 10px;
+}
+input:focus{
+    outline: 1px solid #d6d6d6;
+    font-size: 18px;
+}
+
+button{
+    background-color: black;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.box{
+    margin-top: 50px;
+    background-color: #fff;
+}
+button:hover{
+    opacity: 0.7;
+}
